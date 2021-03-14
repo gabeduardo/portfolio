@@ -90,4 +90,25 @@ const MoreText = styled.div`
     background-position: center;
   }
 `
-export { Banner, TextWrapper, MoreText }
+
+const GenereicPara = styled.p`
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: ${props => (props.lessSpacing ? "0.075em" : "0.225em")};
+  font-size: ${props => (props.lessSize ? "1rem" : "2.5rem")};
+  line-height: ${props => (props.lessSize ? "2rem" : "3rem")};
+  color: ${props => (props.grey ? "#c8ece9" : "#ffffff")};
+`
+const GenericH2 = styled.h2`
+  font-size: 1rem;
+  padding: ${props => (props.none ? "0" : "1.35em 0")};
+  color: ${props => (props.dark ? "#4E4852" : "#ffffff")};
+  border-bottom: ${props => (props.none ? "0" : "2px solid #1d9c91")};
+  text-transform: uppercase;
+  @media (max-width: 360px) {
+    margin-left: 15%;
+  }
+
+  margin: ${props => (props.some ? "5rem 0 0 0" : "0")};
+`
+export { Banner, TextWrapper, MoreText, GenereicPara, GenericH2 }
