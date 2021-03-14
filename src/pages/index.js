@@ -17,31 +17,41 @@ import {
   GenereicPara,
   GenericH2,
 } from "../styles/IndexStyles"
+import Estedad from "../../static/Estedad[wght,kshd].ttf"
 
 const SectionTwo = styled.section`
   background-color: #21b2a6;
   text-align: center;
   padding: 10rem 0;
+  @font-face {
+    font-family: "source-serif-var";
+    src: url(${Estedad}) format("truetype");
+    font-weight: 100 800;
+    font-display: swap;
+  }
 
   div {
     width: 66%;
     margin: 0 auto;
   }
   h2 {
-    font-size: 3rem;
     padding: 1.35em 0;
     color: #ffffff;
     border-bottom: 2px solid #1d9c91;
     text-transform: uppercase;
     letter-spacing: 0.6rem;
     margin: 0;
+    font-family: "source-serif-var";
+    font-size: 45px;
   }
   p {
     text-transform: uppercase;
     color: #c8ece9;
     text-align: center;
     letter-spacing: 0.225em;
-    font-size: 1.5rem;
+    font-family: "source-serif-var";
+
+    font-weight: 900;
   }
   h5 {
     font-size: 1.4rem;
@@ -60,12 +70,21 @@ const SectionThree = styled.section`
   background-color: #505393;
   color: #ffffff;
   text-align: center;
+  @font-face {
+    font-family: "source-serif-var";
+    src: url(${Estedad}) format("truetype");
+    font-weight: 100 800;
+    font-display: swap;
+  }
   .header__section4 {
     width: 66%;
     margin: 0 auto;
   }
   .title__section4 {
-    font-size: 3rem;
+    font-family: "source-serif-var";
+
+    font-size: 45px;
+
     padding: 1.35em 0;
     color: #ffffff;
     border-bottom: 2px solid #1d9c91;
@@ -207,12 +226,12 @@ export default () => (
           </GenereicPara>
         </div>
         <div className="image">
-          <img src="imgDos.jpg" alt="pic02" />
+          <img src="3588964.jpg" alt="pic02" />
         </div>
       </FlexBoxIndex>
       <FlexBoxIndex>
         <div className="image">
-          <img src="imgUno.jpg" alt="pic03" />
+          <img src="imgTres.jpg" alt="pic03" />
         </div>
         <div className="text__section3">
           <GenericH2>Soft skills</GenericH2>
