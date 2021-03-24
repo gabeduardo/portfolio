@@ -155,7 +155,7 @@ const GenericH2 = styled.h2`
   }
   font-family: "source-serif-var";
 
-  font-size: ${props => (props.none ? "1rem" : "1.4rem")};
+  font-size: ${props => (props.none ? "0.6rem" : "1.4rem")};
 
   margin: ${props => (props.some ? "5rem 0 0 0" : "0")};
   @media (max-width: 370px) {

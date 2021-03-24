@@ -10,6 +10,7 @@ import {
   SiNodeDotJs,
 } from "react-icons/si"
 import { IconContext } from "react-icons/lib"
+import { StaticImage } from "gatsby-plugin-image"
 import {
   Banner,
   TextWrapper,
@@ -95,7 +96,7 @@ const SectionThree = styled.section`
   .grid__section4 {
     overflow: hidden;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   }
   .grid__section4 > * {
@@ -106,6 +107,66 @@ const SectionFour = styled.section`
   background-color: #2b343d;
   color: #ffffff;
   margin-top: 0.5%;
+`
+
+const SectionFive = styled.section`
+  background-color: #e7e7e7;
+  text-align: center;
+  @font-face {
+    font-family: "source-serif-var";
+    src: url(${Estedad}) format("truetype");
+    font-weight: 100 800;
+    font-display: swap;
+    font-size: 1rem;
+  }
+
+  .title__section5 {
+    font-family: "source-serif-var";
+
+    font-size: 45px;
+
+    padding: 1.35em 0;
+    color: black;
+    border-bottom: 2px solid #1d9c91;
+    text-transform: uppercase;
+    letter-spacing: 0.6rem;
+    margin: 0;
+  }
+  .grid__section5 {
+    overflow: hidden;
+    display: grid;
+    grid-gap: 2vw;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    padding: 3%;
+  }
+
+  @media all and (max-width: 760px) {
+    .grid__section5 {
+      overflow: hidden;
+      display: grid;
+
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media all and (max-width: 680px) {
+    .grid__section5 {
+      overflow: hidden;
+      display: grid;
+
+      grid-template-columns: 1fr;
+    }
+  }
+  p {
+    font-family: "source-serif-var";
+    font-size: 1rem;
+    font-style: italic;
+    letter-spacing: 0.134em;
+
+    font-size: 1.1rem;
+    font-variation-settings: "kshd" 200;
+    margin-bottom: 0;
+  }
 `
 
 const FlexBoxIndex = styled.div`
@@ -242,5 +303,24 @@ export default () => (
         </div>
       </FlexBoxIndex>
     </SectionFour>
+
+    <SectionFive>
+      <h2 className="title__section5"> Some of my works</h2>
+      <div className="grid__section5">
+        <div className="item1" style={{ backgroundColor: "#2b343d" }}>
+          <StaticImage src="../images/portada.png" alt="A dinosaur" />
+          <GenericH2 none>Educab</GenericH2>
+        </div>
+        <div className="item1" style={{ backgroundColor: "#2b343d" }}>
+          <StaticImage src="../images/cheesecakedeli.png" alt="A dinosaur" />
+          <GenericH2 none>Cheesecakedeli</GenericH2>
+        </div>
+        <div className="item1" style={{ backgroundColor: "#2b343d" }}>
+          <StaticImage src="../images/historia.png" alt="A dinosaur" />
+          <GenericH2 none>Ecommerce</GenericH2>
+        </div>
+      </div>
+      <p>And many more, let's talk </p>
+    </SectionFive>
   </>
 )
