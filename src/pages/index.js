@@ -8,6 +8,8 @@ import {
   SiStyledComponents,
   SiJavascript,
   SiNodeDotJs,
+  SiGmail,
+  SiAdobeacrobatreader,
 } from "react-icons/si"
 import { IconContext } from "react-icons/lib"
 import { StaticImage } from "gatsby-plugin-image"
@@ -84,7 +86,7 @@ const SectionThree = styled.section`
   .title__section4 {
     font-family: "source-serif-var";
 
-    font-size: 45px;
+    font-size: 40px;
 
     padding: 1.35em 0;
     color: #ffffff;
@@ -101,6 +103,12 @@ const SectionThree = styled.section`
   }
   .grid__section4 > * {
     padding: 3rem;
+  }
+
+  .grid__section6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 3%;
   }
 `
 const SectionFour = styled.section`
@@ -166,6 +174,7 @@ const SectionFive = styled.section`
     font-size: 1.1rem;
     font-variation-settings: "kshd" 200;
     margin-bottom: 0;
+    padding-bottom: 3%;
   }
 `
 
@@ -308,19 +317,47 @@ export default () => (
       <h2 className="title__section5"> Some of my works</h2>
       <div className="grid__section5">
         <div className="item1" style={{ backgroundColor: "#2b343d" }}>
-          <StaticImage src="../images/portada.png" alt="A dinosaur" />
+          <StaticImage src="../images/portada.png" alt="A elearning platform" />
           <GenericH2 none>Educab</GenericH2>
         </div>
         <div className="item1" style={{ backgroundColor: "#2b343d" }}>
-          <StaticImage src="../images/cheesecakedeli.png" alt="A dinosaur" />
+          <StaticImage
+            src="../images/cheesecakedeli.png"
+            alt="cheesecake ecommerce"
+          />
           <GenericH2 none>Cheesecakedeli</GenericH2>
         </div>
         <div className="item1" style={{ backgroundColor: "#2b343d" }}>
-          <StaticImage src="../images/historia.png" alt="A dinosaur" />
+          <StaticImage src="../images/historia.png" alt="An ecommerce" />
           <GenericH2 none>Ecommerce</GenericH2>
         </div>
       </div>
       <p>And many more, let's talk </p>
     </SectionFive>
+
+    <SectionThree>
+      <div className="header__section4">
+        <h2 className="title__section4"> Contact</h2>
+        <GenereicPara lessSize grey>
+          We use modern and latest technologies which helps our clients
+          <br />
+          as they are highly scalable and maintainable.
+        </GenereicPara>
+        <div className="grid__section6">
+          <div className="item1" style={{ backgroundColor: "#4D508E" }}>
+            <IconContext.Provider value={{ color: "white", size: "50px" }}>
+              <SiGmail />
+            </IconContext.Provider>
+            <GenericH2 none>gemcir13@gmail.com</GenericH2>
+          </div>
+          <div className="item2" style={{ backgroundColor: "#4A4D89" }}>
+            <IconContext.Provider value={{ color: "white", size: "50px" }}>
+              <SiAdobeacrobatreader />
+            </IconContext.Provider>
+            <GenericH2 none>CV</GenericH2>
+          </div>
+        </div>
+      </div>
+    </SectionThree>
   </>
 )
