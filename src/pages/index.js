@@ -274,7 +274,7 @@ export default () => (
     <SectionFour>
       <FlexBoxIndex>
         <div className="image">
-          <img src="imgUno.jpg" alt="pic01" />
+          <StaticImage src="../../static/imgUno.jpg" alt="pic01" />
         </div>
         <div className="text__section3">
           <GenericH2>Website Development</GenericH2>
@@ -296,12 +296,12 @@ export default () => (
           </GenereicPara>
         </div>
         <div className="image">
-          <img src="3588964.jpg" alt="pic02" />
+          <StaticImage src="../../static/3588964.jpg" alt="pic02" />
         </div>
       </FlexBoxIndex>
       <FlexBoxIndex>
         <div className="image">
-          <img src="imgTres.jpg" alt="pic03" />
+          <StaticImage src="../../static/imgTres.jpg" alt="pic03" />
         </div>
         <div className="text__section3">
           <GenericH2>Soft skills</GenericH2>
