@@ -334,7 +334,7 @@ const index = () => (
         </div>
         <div className="item1" style={{ backgroundColor: "#2b343d" }}>
           <StaticImage
-            src="../images/cheesecakeDeli.png"
+            src="../images/deli.png"
             alt="cheesecake ecommerce"
             width={296}
             height={160}
