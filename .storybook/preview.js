@@ -17,3 +17,25 @@ global.__BASE_PATH__ = "/"
 window.___navigate = pathname => {
   action("NavigateTo:")(pathname)
 }
+
+/*
+
+export const parameters = {
+  backgrounds: {
+    default: 'stack',
+    values: [
+      {
+        name: 'twitter',
+        value: '#00aced',
+      },
+      {
+        name: 'facebook',
+        value: '#3b5998',
+      },
+      {
+        name:'stack',
+        value: '#505393'
+      }
+    ],
+  },
+};*/

@@ -39,17 +39,18 @@ const TextWrapper = styled.div`
     font-family: "source-serif-var";
     opacity: 1;
     padding: 0.35em 0.35em;
-    border-top: 2px solid rgb(34, 209, 200);
-    border-bottom: 2px solid rgb(34, 209, 200);
+    border-top: 2px solid #07f3b0;
+    border-bottom: 2px solid #07f3b0;
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 45%;
     color: #ffffff;
-    background-color: #f27b6a;
-    font-size: 36px;
+    background-color: #221f87;
+    font-size: 30px;
     font-variation-settings: "kshd" 100;
     font-weight: 605;
     line-height: 0.8;
+    text-align: center;
   }
   p {
     text-transform: uppercase;
@@ -61,7 +62,7 @@ const TextWrapper = styled.div`
   }
   a {
     font-family: "source-serif-var";
-    background-color: #ed4933;
+    background-color: #221f87;
     box-shadow: none;
     color: #ffffff;
     border-radius: 3px;
@@ -82,7 +83,7 @@ const TextWrapper = styled.div`
 `
 const MoreText = styled.div`
   position: absolute;
-  color: #ed4933;
+  color: #221f87;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.225em;

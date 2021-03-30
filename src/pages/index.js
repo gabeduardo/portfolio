@@ -195,7 +195,7 @@ const FlexBoxIndex = styled.div`
   }
 `
 
-export default () => (
+const index = () => (
   <>
     <section style={{ position: "relative" }}>
       <Banner />
@@ -203,7 +203,7 @@ export default () => (
         <div>
           <h2>Gabriel M C </h2>
 
-          <Link to="/works">Contact</Link>
+          <a href="#contacto">Contact</a>
         </div>
       </TextWrapper>
       <MoreText>Learn More</MoreText>
@@ -317,25 +317,37 @@ export default () => (
       <h2 className="title__section5"> Some of my works</h2>
       <div className="grid__section5">
         <div className="item1" style={{ backgroundColor: "#2b343d" }}>
-          <StaticImage src="../images/portada.png" alt="A elearning platform" />
+          <StaticImage
+            src="../images/portada.png"
+            alt="A elearning platform"
+            width={296}
+            height={160}
+          />
           <GenericH2 none>Educab</GenericH2>
         </div>
         <div className="item1" style={{ backgroundColor: "#2b343d" }}>
           <StaticImage
             src="../images/cheesecakedeli.png"
             alt="cheesecake ecommerce"
+            width={296}
+            height={160}
           />
           <GenericH2 none>Cheesecakedeli</GenericH2>
         </div>
         <div className="item1" style={{ backgroundColor: "#2b343d" }}>
-          <StaticImage src="../images/historia.png" alt="An ecommerce" />
+          <StaticImage
+            src="../images/historia.png"
+            alt="An ecommerce"
+            width={296}
+            height={160}
+          />
           <GenericH2 none>Ecommerce</GenericH2>
         </div>
       </div>
       <p>And many more, let's talk </p>
     </SectionFive>
 
-    <SectionThree>
+    <SectionThree id="contacto">
       <div className="header__section4">
         <h2 className="title__section4"> Contact</h2>
         <GenereicPara lessSize grey>
@@ -361,3 +373,5 @@ export default () => (
     </SectionThree>
   </>
 )
+
+export default index
