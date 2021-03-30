@@ -226,9 +226,11 @@ const index = () => (
       <div className="header__section4">
         <h2 className="title__section4"> Stack</h2>
         <GenereicPara lessSize grey>
-          We use modern and latest technologies which helps our clients
+          CURRENTLY I'M FOCUSING IN MODERN TECHNOLOGIES & THE IMPLEMENTATION OF
+          THE JAMSTACK
           <br />
-          as they are highly scalable and maintainable.
+          FOR THE FRONT I LIKE TO USE ES6 ALONG REAT AND FOR THE BACK PRIMARILY
+          NODE.JS AND PYTHON.
         </GenereicPara>
         <div className="grid__section4">
           <div className="item1" style={{ backgroundColor: "#4D508E" }}>
@@ -279,8 +281,9 @@ const index = () => (
         <div className="text__section3">
           <GenericH2>Website Development</GenericH2>
           <GenereicPara lessSize lessSpacing>
-            We hand code beautiful websites using HTML5, CSS3, JS because they
-            are fully customizable and efficient. No Worpress websites here.
+            MY MAIN FOCUS RELIES ON THE WEBSITE DEVELOPMENT WITH MODERN
+            TECHNOLOGIES LIKE THE STACK DESCRIBED ABOVE, BECAUSE THEY ARE FULLY
+            CUSTOMIZABLE AND VERY EFFICIENT.
           </GenereicPara>
         </div>
       </FlexBoxIndex>
@@ -288,11 +291,11 @@ const index = () => (
         <div className="text__section3">
           <GenericH2>Website Design</GenericH2>
           <GenereicPara lessSize lessSpacing>
-            I love creating websites with an appropriate design and thinking
-            about the comfort of the user, beyond this page that serves as a
-            portfolio, in each of my projects I seek to make use of the
-            techniques that covers elements of UX, UI to make a design that
-            provides an adequate user interface and a quality experienc.
+            I LOVE CREATING WEBSITES WITH AN APPROPRIATE DESIGN AND THINKING
+            ABOUT THE COMFORT OF THE USER, IN EACH OF MY PROJECTS I SEEK TO MAKE
+            USE OF THE TECHNIQUES THAT COVERS ELEMENTS OF UX & UI TO MAKE A
+            DESIGN THAT PROVIDES AN ADEQUATE USER INTERFACE AND A NICE
+            EXPERIENCE TO THE USER
           </GenereicPara>
         </div>
         <div className="image">
@@ -304,10 +307,14 @@ const index = () => (
           <StaticImage src="../../static/imgTres.jpg" alt="pic03" />
         </div>
         <div className="text__section3">
-          <GenericH2>Soft skills</GenericH2>
+          <GenericH2>Other skills</GenericH2>
           <GenereicPara lessSize lessSpacing>
-            We develop Mobile apps in Reactive Native, which can be used in both
-            ios and Android.
+            I LIKE TO READ EBOOKS SO IT HELPS ME OUT TO STAY UPDATED, CLEAR ALL
+            MY DOUBTS AND ALSO GROW UP MY KNOWLEDGE,I AM ALWAYS WILLING TO LEARN
+            NEW SKILLS, NEW TECHNOLOGIES, LANGUAGES AND IMPROVE MY EXISTING
+            ONES, I FIRMLY BELIEVE THAT COMMUNICATION IS A KEY POINT NOT ONLY
+            BETWEEN THE MEMBERS OF THE DEVELOPMENT TEAM BUT ALSO WITH THE
+            CLIENTS
           </GenereicPara>
         </div>
       </FlexBoxIndex>
@@ -351,9 +358,9 @@ const index = () => (
       <div className="header__section4">
         <h2 className="title__section4"> Contact</h2>
         <GenereicPara lessSize grey>
-          We use modern and latest technologies which helps our clients
+          IF YOU ARE INTERESTED IN WORK WITH ME
           <br />
-          as they are highly scalable and maintainable.
+          YOU CAN REACH ME UP THROUGH MY EMAIL.
         </GenereicPara>
         <div className="grid__section6">
           <div className="item1" style={{ backgroundColor: "#4D508E" }}>
