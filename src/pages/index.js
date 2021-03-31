@@ -306,8 +306,13 @@ const index = () => (
             src="../../static/imgUno.jpg"
             alt="pic01"
             placeholder="blurred"
+<<<<<<< HEAD
             width={960}
             height={960}
+=======
+            width={1000}
+            height={1000}
+>>>>>>> bd4d31c0f8fa26c67238be747ffea65452b1b13b
             formats={["webp", "avif"]}
           />
         </div>
@@ -336,8 +341,13 @@ const index = () => (
             src="../../static/3588964.jpg"
             alt="pic02"
             placeholder="blurred"
+<<<<<<< HEAD
             width={960}
             height={960}
+=======
+            width={1000}
+            height={1000}
+>>>>>>> bd4d31c0f8fa26c67238be747ffea65452b1b13b
             formats={["webp", "avif"]}
           />
         </div>
@@ -348,8 +358,13 @@ const index = () => (
             src="../../static/imgTres.jpg"
             alt="pic03"
             placeholder="blurred"
+<<<<<<< HEAD
             width={960}
             height={960}
+=======
+            width={1000}
+            height={1000}
+>>>>>>> bd4d31c0f8fa26c67238be747ffea65452b1b13b
             formats={["webp", "avif"]}
           />
         </div>
