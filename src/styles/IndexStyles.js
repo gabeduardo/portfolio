@@ -1,20 +1,6 @@
 import styled from "styled-components"
 import Estedad from "../../static/Estedad[wght,kshd].ttf"
 
-const Banner = styled.div`
-  &:after {
-    content: "";
-    display: block;
-    height: 100vh;
-    width: 100%;
-    background-image: url("portada.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    filter: grayscale(30%);
-  }
-`
-
 const TextWrapper = styled.div`
   @font-face {
     font-family: "source-serif-var";
@@ -167,4 +153,4 @@ const GenericH2 = styled.h2`
   }
 `
 
-export { Banner, TextWrapper, MoreText, GenereicPara, GenericH2 }
+export { TextWrapper, MoreText, GenereicPara, GenericH2 }

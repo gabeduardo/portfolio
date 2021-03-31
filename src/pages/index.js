@@ -14,7 +14,6 @@ import {
 import { IconContext } from "react-icons/lib"
 import { StaticImage } from "gatsby-plugin-image"
 import {
-  Banner,
   TextWrapper,
   MoreText,
   GenereicPara,
@@ -195,10 +194,37 @@ const FlexBoxIndex = styled.div`
   }
 `
 
+const Banner = styled.div`
+  content: "";
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  background-image: url("portada.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(30%);
+`
 const index = () => (
   <>
     <section style={{ position: "relative" }}>
-      <Banner />
+      <Banner>
+        <StaticImage
+          style={{
+            gridArea: "1/1",
+            // You can set a maximum height for the image, if you wish.
+            // maxHeight: 600,
+          }}
+          layout="fullWidth"
+          // You can optionally force an aspect ratio for the generated image
+          placeholder="blurred"
+          // This is a presentational image, so the alt should be an empty string
+          alt=""
+          // Assisi, Perúgia, Itália by Bernardo Ferrari, via Unsplash
+          src="../../static/portada.jpg"
+          formats={["auto", "webp", "avif"]}
+        />
+      </Banner>
       <TextWrapper>
         <div>
           <h2>Gabriel M C </h2>
@@ -276,7 +302,11 @@ const index = () => (
     <SectionFour>
       <FlexBoxIndex>
         <div className="image">
-          <StaticImage src="../../static/imgUno.jpg" alt="pic01" />
+          <StaticImage
+            src="../../static/imgUno.jpg"
+            alt="pic01"
+            placeholder="blurred"
+          />
         </div>
         <div className="text__section3">
           <GenericH2>Website Development</GenericH2>
@@ -299,12 +329,20 @@ const index = () => (
           </GenereicPara>
         </div>
         <div className="image">
-          <StaticImage src="../../static/3588964.jpg" alt="pic02" />
+          <StaticImage
+            src="../../static/3588964.jpg"
+            alt="pic02"
+            placeholder="blurred"
+          />
         </div>
       </FlexBoxIndex>
       <FlexBoxIndex>
         <div className="image">
-          <StaticImage src="../../static/imgTres.jpg" alt="pic03" />
+          <StaticImage
+            src="../../static/imgTres.jpg"
+            alt="pic03"
+            placeholder="blurred"
+          />
         </div>
         <div className="text__section3">
           <GenericH2>Other skills</GenericH2>
@@ -329,6 +367,7 @@ const index = () => (
             alt="A elearning platform"
             width={296}
             height={160}
+            placeholder="blurred"
           />
           <GenericH2 none>Educab</GenericH2>
         </div>
@@ -338,6 +377,7 @@ const index = () => (
             alt="cheesecake ecommerce"
             width={296}
             height={160}
+            placeholder="blurred"
           />
           <GenericH2 none>Cheesecakedeli</GenericH2>
         </div>
@@ -347,6 +387,7 @@ const index = () => (
             alt="An ecommerce"
             width={296}
             height={160}
+            placeholder="blurred"
           />
           <GenericH2 none>Ecommerce</GenericH2>
         </div>
