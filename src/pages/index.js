@@ -222,7 +222,7 @@ const index = () => (
           alt=""
           // Assisi, Perúgia, Itália by Bernardo Ferrari, via Unsplash
           src="../../static/portada.jpg"
-          formats={["auto", "webp", "avif"]}
+          formats={["webp", "avif"]}
         />
       </Banner>
       <TextWrapper>
@@ -306,6 +306,9 @@ const index = () => (
             src="../../static/imgUno.jpg"
             alt="pic01"
             placeholder="blurred"
+            width={1000}
+            height={1000}
+            formats={["webp", "avif"]}
           />
         </div>
         <div className="text__section3">
@@ -333,6 +336,9 @@ const index = () => (
             src="../../static/3588964.jpg"
             alt="pic02"
             placeholder="blurred"
+            width={1000}
+            height={1000}
+            formats={["webp", "avif"]}
           />
         </div>
       </FlexBoxIndex>
@@ -342,6 +348,9 @@ const index = () => (
             src="../../static/imgTres.jpg"
             alt="pic03"
             placeholder="blurred"
+            width={1000}
+            height={1000}
+            formats={["webp", "avif"]}
           />
         </div>
         <div className="text__section3">
@@ -391,8 +400,39 @@ const index = () => (
           />
           <GenericH2 none>Ecommerce</GenericH2>
         </div>
+
+        <div className="item1" style={{ backgroundColor: "#2b343d" }}>
+          <StaticImage
+            src="../images/zelda.png"
+            alt="A social media platform"
+            width={296}
+            height={160}
+            placeholder="blurred"
+          />
+          <GenericH2 none>Django Social platform</GenericH2>
+        </div>
+        <div className="item1" style={{ backgroundColor: "#2b343d" }}>
+          <StaticImage
+            src="../images/schunk.png"
+            alt="schunk ecommerce"
+            width={296}
+            height={160}
+            placeholder="blurred"
+          />
+          <GenericH2 none>Schunk Ecommerce</GenericH2>
+        </div>
+        <div className="item1" style={{ backgroundColor: "#2b343d" }}>
+          <StaticImage
+            src="../images/twitter.png"
+            alt="twitter project"
+            width={296}
+            height={160}
+            placeholder="blurred"
+          />
+          <GenericH2 none>Twitter analyssis tool</GenericH2>
+        </div>
       </div>
-      <p>And many more, let's talk </p>
+      <p>And many many more, let's talk </p>
     </SectionFive>
 
     <SectionThree id="contacto">
@@ -408,7 +448,7 @@ const index = () => (
             <IconContext.Provider value={{ color: "white", size: "50px" }}>
               <SiGmail />
             </IconContext.Provider>
-            <GenericH2 none>gemcir13@gmail.com</GenericH2>
+            <GenericH2 none>gemcirelli@gmail.com</GenericH2>
           </div>
           <div className="item2" style={{ backgroundColor: "#4A4D89" }}>
             <IconContext.Provider value={{ color: "white", size: "50px" }}>
