@@ -108,6 +108,26 @@ const SectionThree = styled.section`
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 3%;
+    .item2,
+    .item1 {
+      padding: 3rem;
+    }
+  }
+
+  .contactIcon {
+    font-size: 50px;
+    color: white;
+  }
+  @media only screen and (max-width: 400px) {
+    .grid__section6 {
+      grid-template-columns: 1fr;
+      h2 {
+        margin-left: 0;
+      }
+    }
+    .contactIcon {
+      font-size: 20px;
+    }
   }
 `
 const SectionFour = styled.section`
@@ -445,15 +465,13 @@ const index = () => (
         </GenereicPara>
         <div className="grid__section6">
           <div className="item1" style={{ backgroundColor: "#4D508E" }}>
-            <IconContext.Provider value={{ color: "white", size: "50px" }}>
-              <SiGmail />
-            </IconContext.Provider>
+            <SiGmail className="contactIcon" />
+
             <GenericH2 none>gemcirelli@gmail.com</GenericH2>
           </div>
           <div className="item2" style={{ backgroundColor: "#4A4D89" }}>
-            <IconContext.Provider value={{ color: "white", size: "50px" }}>
-              <SiAdobeacrobatreader />
-            </IconContext.Provider>
+            <SiAdobeacrobatreader className="contactIcon" />
+
             <GenericH2 none>CV</GenericH2>
           </div>
         </div>

@@ -148,7 +148,7 @@ const GenericH2 = styled.h2`
   @media (max-width: 370px) {
     margin-left: 15%;
 
-    font-size: ${props => (props.none ? "0.7rem" : "1rem")};
+    font-size: ${props => (props.none ? "0.5rem" : "1rem")};
     letter-spacing: 0.069em;
   }
 `
