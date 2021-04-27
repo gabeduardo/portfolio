@@ -20,6 +20,7 @@ import {
   GenericH2,
 } from "../styles/IndexStyles"
 import Estedad from "../../static/Estedad[wght,kshd].ttf"
+import cv from "../../static/cv.pdf"
 
 const SectionTwo = styled.section`
   background-color: #21b2a6;
@@ -408,7 +409,7 @@ const index = () => (
             height={160}
             placeholder="blurred"
           />
-          <GenericH2 none>Cheesecakedeli</GenericH2>
+          <GenericH2 none>Cheesecakedeli.com</GenericH2>
         </div>
         <div className="item1" style={{ backgroundColor: "#2b343d" }}>
           <StaticImage
@@ -423,13 +424,13 @@ const index = () => (
 
         <div className="item1" style={{ backgroundColor: "#2b343d" }}>
           <StaticImage
-            src="../images/zelda.png"
+            src="../images/az.png"
             alt="A social media platform"
             width={296}
             height={160}
             placeholder="blurred"
           />
-          <GenericH2 none>Django Social platform</GenericH2>
+          <GenericH2 none>Azlogisticvenezuela.com</GenericH2>
         </div>
         <div className="item1" style={{ backgroundColor: "#2b343d" }}>
           <StaticImage
@@ -470,9 +471,10 @@ const index = () => (
             <GenericH2 none>gemcirelli@gmail.com</GenericH2>
           </div>
           <div className="item2" style={{ backgroundColor: "#4A4D89" }}>
-            <SiAdobeacrobatreader className="contactIcon" />
-
-            <GenericH2 none>CV</GenericH2>
+            <a href={cv} download>
+              <SiAdobeacrobatreader className="contactIcon" />
+              <GenericH2 none>CV </GenericH2>
+            </a>
           </div>
         </div>
       </div>
