@@ -19,16 +19,5 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
-
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: "Portfoliogemc",
-        short_name: "gemc",
-        start_url: "/",
-
-        icon: "src/images/logoG.png",
-      },
-    },
   ],
 }
