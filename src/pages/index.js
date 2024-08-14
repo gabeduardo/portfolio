@@ -392,16 +392,6 @@ const index = () => (
       <h2 className="title__section5"> Some of my works</h2>
       <div className="grid__section5">
         <div className="item1" style={{ backgroundColor: "#2b343d" }}>
-          <StaticImage
-            src="../images/portada.png"
-            alt="A elearning platform"
-            width={296}
-            height={160}
-            placeholder="blurred"
-          />
-          <GenericH2 none>Educab</GenericH2>
-        </div>
-        <div className="item1" style={{ backgroundColor: "#2b343d" }}>
           <a href="https://cheesecakedeli.netlify.app/">
             <StaticImage
               src="../images/deli.png"
@@ -415,6 +405,40 @@ const index = () => (
         </div>
         <div className="item1" style={{ backgroundColor: "#2b343d" }}>
           <StaticImage
+            src="../images/twitter.png"
+            alt="twitter project"
+            width={296}
+            height={160}
+            placeholder="blurred"
+          />
+          <GenericH2 none>Web Bienes Raíces</GenericH2>
+        </div>
+          <div className="item1" style={{ backgroundColor: "#2b343d" }}>
+           <a href="https://capable-sopapillas-9457cb.netlify.app/">
+              <StaticImage
+                src="../images/bienesRaices.png"
+                alt="A realstate platform"
+                width={296}
+                height={160}
+                placeholder="blurred"
+              />
+            </a>
+        </div>
+
+
+
+        <div className="item1" style={{ backgroundColor: "#2b343d" }}>
+          <StaticImage
+            src="../images/portada.png"
+            alt="A elearning platform"
+            width={296}
+            height={160}
+            placeholder="blurred"
+          />
+          <GenericH2 none>Educab</GenericH2>
+        </div>
+        <div className="item1" style={{ backgroundColor: "#2b343d" }}>
+          <StaticImage
             src="../images/historia.png"
             alt="An ecommerce"
             width={296}
@@ -424,16 +448,7 @@ const index = () => (
           <GenericH2 none>Ecommerce</GenericH2>
         </div>
 
-        <div className="item1" style={{ backgroundColor: "#2b343d" }}>
-          <StaticImage
-            src="../images/azlogis.png"
-            alt="A social media platform"
-            width={296}
-            height={160}
-            placeholder="blurred"
-          />
-          <GenericH2 none>Azlogisticvenezuela.com</GenericH2>
-        </div>
+
         <div className="item1" style={{ backgroundColor: "#2b343d" }}>
           <StaticImage
             src="../images/schunk.png"
@@ -444,16 +459,7 @@ const index = () => (
           />
           <GenericH2 none>Schunk Ecommerce</GenericH2>
         </div>
-        <div className="item1" style={{ backgroundColor: "#2b343d" }}>
-          <StaticImage
-            src="../images/twitter.png"
-            alt="twitter project"
-            width={296}
-            height={160}
-            placeholder="blurred"
-          />
-          <GenericH2 none>Twitter analyssis tool</GenericH2>
-        </div>
+
       </div>
       <p>And many many more, let's talk </p>
     </SectionFive>
