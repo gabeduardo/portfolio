@@ -403,16 +403,7 @@ const index = () => (
           <GenericH2 none>Cheesecakedeli.com</GenericH2>
           </a>
         </div>
-        <div className="item1" style={{ backgroundColor: "#2b343d" }}>
-          <StaticImage
-            src="../images/twitter.png"
-            alt="twitter project"
-            width={296}
-            height={160}
-            placeholder="blurred"
-          />
-          <GenericH2 none>Web Bienes Raíces</GenericH2>
-        </div>
+
           <div className="item1" style={{ backgroundColor: "#2b343d" }}>
            <a href="https://capable-sopapillas-9457cb.netlify.app/">
               <StaticImage
@@ -423,6 +414,18 @@ const index = () => (
                 placeholder="blurred"
               />
             </a>
+        </div>
+        <div className="item1" style={{ backgroundColor: "#2b343d" }}>
+            <a href="https://capable-sopapillas-9457cb.netlify.app/">
+              <StaticImage
+                src="../images/azlogis.png"
+                alt="twitter project"
+                width={296}
+                height={160}
+                placeholder="blurred"
+              />
+             </a>
+              <GenericH2 none>https://www.azlogisticvenezuela.com/</GenericH2>
         </div>
 
 
