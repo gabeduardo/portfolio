@@ -413,6 +413,7 @@ const index = () => (
                 height={160}
                 placeholder="blurred"
               />
+            <GenericH2 none>Web Bienes Raíces/</GenericH2>
             </a>
         </div>
         <div className="item1" style={{ backgroundColor: "#2b343d" }}>
