@@ -273,7 +273,7 @@ const index = () => (
       <div className="header__section4">
         <h2 className="title__section4"> Stack</h2>
         <GenereicPara lessSize grey>
-          CURRENTLY I'M FOCUSING IN MODERN TECHNOLOGIES & THE IMPLEMENTATION OF
+          CURRENTLY I'M FOCUSING IN MODERN TECHNOLOGIES LIKE PYTHON & DAJNGO & THE IMPLEMENTATION OF
           THE JAMSTACK
           <br />
           FOR THE FRONT I LIKE TO USE ES6 ALONG REAT AND FOR THE BACK PRIMARILY
@@ -402,14 +402,16 @@ const index = () => (
           <GenericH2 none>Educab</GenericH2>
         </div>
         <div className="item1" style={{ backgroundColor: "#2b343d" }}>
-          <StaticImage
-            src="../images/deli.png"
-            alt="cheesecake ecommerce"
-            width={296}
-            height={160}
-            placeholder="blurred"
-          />
+          <a href="https://cheesecakedeli.netlify.app/">
+            <StaticImage
+              src="../images/deli.png"
+              alt="cheesecake ecommerce"
+              width={296}
+              height={160}
+              placeholder="blurred"
+            />
           <GenericH2 none>Cheesecakedeli.com</GenericH2>
+          </a>
         </div>
         <div className="item1" style={{ backgroundColor: "#2b343d" }}>
           <StaticImage
